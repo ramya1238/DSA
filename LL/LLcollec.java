@@ -1,3 +1,11 @@
+//addFirst, addLast = add
+//remooveFirst, removeLast, remove(index)
+//size()
+//displaying with for loop, get(index)
+//modifying add(index, element)
+//search with- for-loop
+
+
 import java.util.LinkedList;
 
 class LLcollec {
@@ -7,6 +15,7 @@ class LLcollec {
         //addFirst
         list.addFirst("a");
         list.addFirst("is");
+        list.addFirst("This");
         System.out.println(list);
 
         //addLast
@@ -43,5 +52,9 @@ class LLcollec {
                 System.out.println(i);
             }
         }
+        
+        //add in between
+        list.add(1,"ramya");
+        System.out.println(list);
     }
 }
